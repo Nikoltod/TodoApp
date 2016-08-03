@@ -1,0 +1,24 @@
+.row .container{
+            width: 100%;
+        }
+
+        .row .container:first-child {
+            background: #18BC9C;
+        }            
+
+        .row:nth-child(3) .container, body {
+            background: #2C3E50;
+        }
+        
+        .row .container:first-child {
+            padding: 1.5em;
+        }
+        
+        #user-todo-list {
+            margin-top: 1.5em;
+        }
+        
+        #user-todo-list li {
+            overflow: hidden;
+            border: 3px solid #2C3E50;
+        }
